@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "test2/1.0.0": {
+        "dependencies": {
+          "Pcap.Net.x64": "1.0.4.1",
+          "PcapDotNet": "0.10.2"
+        },
+        "runtime": {
+          "test2.dll": {}
+        }
+      },
+      "Pcap.Net.x64/1.0.4.1": {
+        "runtime": {
+          "lib/net45/PcapDotNet.Base.dll": {
+            "assemblyVersion": "1.0.4.25027",
+            "fileVersion": "1.0.4.0"
+          },
+          "lib/net45/PcapDotNet.Core.Extensions.dll": {
+            "assemblyVersion": "1.0.4.25151",
+            "fileVersion": "1.0.4.0"
+          },
+          "lib/net45/PcapDotNet.Core.dll": {
+            "assemblyVersion": "1.0.4.25149",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net45/PcapDotNet.Packets.dll": {
+            "assemblyVersion": "1.0.4.25028",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "PcapDotNet/0.10.2": {}
+    }
+  },
+  "libraries": {
+    "test2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pcap.Net.x64/1.0.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8kyqaySh23tikkLMZW/DgI3uf+om3QCvvg1dj2h7O6nKHoz9G2j0OfIqozI8FvkymbcHei0JjeBcPP3/t6kAtA==",
+      "path": "pcap.net.x64/1.0.4.1",
+      "hashPath": "pcap.net.x64.1.0.4.1.nupkg.sha512"
+    },
+    "PcapDotNet/0.10.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IZ7I4BQXkWKB2RJlNQCcq8HRmkeisoynFDz7Kq2hkp6GPumGRDX05Iuzl7eL4OeggAY+kaErqP5U+cfe4mEOhA==",
+      "path": "pcapdotnet/0.10.2",
+      "hashPath": "pcapdotnet.0.10.2.nupkg.sha512"
+    }
+  }
+}
